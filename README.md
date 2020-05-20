@@ -1,2 +1,2 @@
 # LearnRubyTheHardWay
-Exercises solved in the book 'Learn Ruby The Hard Way'.
+Exercises solved from the book 'Learn Ruby The Hard Way'.
