@@ -1,12 +1,11 @@
 *Puts*
 	
-	imprime o conteúdo e pula uma linha 
+	prints the content and skips a line 
 
 *Math Symbol*
 	
-	+ : Soma
-	- : Subtração
-	* : Multiplicação
-	/ : Divisão
-	% : Módulo(devolde o resto de uma divisão)
-
+	+: Sum
+	-: Subtraction
+	*: Multiplication
+	/ : Division
+	%: Module (returns the rest of a division)
