@@ -1,5 +1,5 @@
 
-puts "Wellcome the calculator made whit ruby!"
+puts "Welcome the calculator made whit ruby!"
 
 puts "What s your name?"
 name = gets.capitalize 
