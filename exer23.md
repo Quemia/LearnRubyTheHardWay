@@ -1,4 +1,4 @@
-Define uma classe
+Defines a class
     
     class << Thread
       # call-seq:
@@ -8,7 +8,7 @@ Define uma classe
       # value of the block. A thread executing inside the exclusive section will
       # only block other threads which also use the Thread.exclusive mechanism.
       
-Definindo um método
+Defining a method
 
       def exclusive(&block) end if false
       mutex = Mutex.new # :nodoc:
@@ -17,8 +17,7 @@ Definindo um método
         mutex.synchronize(&block)
       end
     end
-
-Definindo uma classe
+Defining a class
 
     class Binding
       # :nodoc:
