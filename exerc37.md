@@ -222,58 +222,110 @@
 
 # Operators 
 
-##:: = Constant resolution operator.
+### /:: 
 
-##[] = 	Element reference.
+	Constant resolution operator.
 
-##** : Exponent.
+### [] 
 
-##- : Subtraction.
+	Element reference.
 
-##+ : Addition.
+### ** 
 
-##! : Called Logical NOT Operator. 
+	Exponent.
 
-##~ : Binary Ones Complement Operator is unary and has the effect of 'flipping' bits.
+### - 
 
-##* : Multiplication.
+	Subtraction.
 
-##/ : Division.
+### + 
 
-##% : Modulus.     
+	Addition.
 
-##+
+### ! 
 
-##-
+	Called Logical NOT Operator. 
 
-##<< : Binary Left Shift Operator.   
+### ~ 
+	
+	Binary Ones Complement Operator is unary and has the effect of 'flipping' bits.
 
-##>> : Binary Right Shift Operator.    
+### * 
 
-##| :Binary OR Operator copies a bit if it exists in either operand.
+	Multiplication.
 
-##> : Checks if the value of left operand is greater than the value of right operand.
+### / 
 
-##>= : Checks if the value of left operand is greater than or equal to the value of right operand.
+	Division.
 
-##< : Checks if the value of left operand is less than the value of right operand.
+### % 
 
-##<= : 	Checks if the value of left operand is less than or equal to the value of right operand.
+	Modulus.     
 
-##<=> : Combined comparison operator.
+### +
 
-##== : Checks if the value of two operands are equal or not, if yes then condition becomes true.
+### -
 
-##=== : Used to test equality within a when clause of a case statement.
+### << 
 
-##!= : 	Checks if the value of two operands are equal or not, if values are not equal then condition becomes true.
+	Binary Left Shift Operator.   
 
-##=~ , !~ :Equality and pattern match operators (!= and !~ may not be defined as methods)
+### >> 
 
-##&& : Called Logical AND operator. If both the operands are non zero, then the condition becomes true.
+	Binary Right Shift Operator.    
 
-##|| : 	Called Logical OR Operator. If any of the two operands are non zero, then the condition becomes true.
+### | 
 
-##.. = Creates a range from start point to end point inclusive.
+	Binary OR Operator copies a bit if it exists in either operand.
 
-##... = 	Creates a range from start point to end point exclusive.
+### > 
+
+	Checks if the value of left operand is greater than the value of right operand.
+
+### >= 
+
+	Checks if the value of left operand is greater than or equal to the value of right operand.
+
+### < 
+
+	Checks if the value of left operand is less than the value of right operand.
+
+### <= 
+
+	Checks if the value of left operand is less than or equal to the value of right operand.
+
+### <=> 
+
+	Combined comparison operator.
+
+### == 
+
+	Checks if the value of two operands are equal or not, if yes then condition becomes true.
+
+### === 
+
+	Used to test equality within a when clause of a case statement.
+
+### != 
+	
+	Checks if the value of two operands are equal or not, if values are not equal then condition becomes true.
+
+### =~ , !~ 
+	
+	Equality and pattern match operators (!= and !~ may not be defined as methods)
+
+### && 
+
+	Called Logical AND operator. If both the operands are non zero, then the condition becomes true.
+
+### || 
+	
+	Called Logical OR Operator. If any of the two operands are non zero, then the condition becomes true.
+
+### .. 
+
+	Creates a range from start point to end point inclusive.
+
+### ... 
+
+	Creates a range from start point to end point exclusive.
